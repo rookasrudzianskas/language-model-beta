@@ -1,22 +1,10 @@
-<a href="https://explosion.ai"><img src="https://explosion.ai/assets/img/logo.svg" width="125" height="125" align="right" /></a>
 
-# spaCy JS
+# Language MODEL JS
 
 [![travis](https://img.shields.io/travis/ines/spacy-js/master.svg?style=flat-square&logo=travis)](https://travis-ci.org/ines/spacy-js)
 [![npm](https://img.shields.io/npm/v/spacy.svg?style=flat-square)](https://www.npmjs.com/package/spacy)
 [![GitHub](https://img.shields.io/github/release/ines/spacy-js/all.svg?style=flat-square)](https://github.com/ines/spacy-js)
 [![unpkg](https://img.shields.io/badge/unpkg-dist/index.js-brightgreen.svg?style=flat-square)](https://unpkg.com/spacy)
-
-
-JavaScript interface for accessing linguistic annotations provided by
-[spaCy](https://spacy.io). This project is mostly experimental and was
-developed for fun to play around with different ways of mimicking spaCy's
-Python API.
-
-The results will still be computed in Python and made available via a REST API.
-The JavaScript API resembles spaCy's Python API as closely as possible (with
-a few exceptions, as the values are all pre-computed and it's tricky to express
-complex recursive relationships).
 
 ```javascript
 const spacy = require('spacy');
